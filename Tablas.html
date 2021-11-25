@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tablas en html</title>
+<style type="text/css">
+h1{color:#F8E982;font-size:40px}
+h2{color:#020D62;font-size:20px}
+thead{color:#4F0106;font-size:15px}
+
+header,footer,main,nav {width:1024px;margin:0 auto}
+header{;padding:20px;text-align: center;background-color: #4262DD;}
+footer{color:#B70C0F;text-align: center;background-color: #047AA4;}
+main{background-color:#97EEF5;padding: 20px;border:dotted 8px #}
+section{background-color: #F9EBF2;margin:70px;padding:15px;border:double 10px #fabc28;}
+table{border-collapse: collapse}
+th,td {padding: 5px}
+th{text-align: left;background-color:#08B2FA; }
+td{background-color:#E695F4 }
+#t01 th{background-color:#D30BF7;order:groove 4px #423}
+#t01 td{background-color:#EB61A1;border:groove 3px ##0B5A}
+</style>
+</head>
+<body>
+<header>
+<h1>Tablas en html</h1>
+</header>
+<nav></nav>
+<main>
+<section>
+<h2>Tabla simple</h2>
+
+	<table border="1">
+<thead>
+<tr>
+<th>Nombre</th>
+<th>Email</th>
+<th>Teléfono</th>
+</tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>Gerardo Flores</td>
+ <td>gera_20@gmail.com</td>
+ <td>2234584906</td>
+ </tr>
+ <tr>
+ <td>Maria Dorantes</td>
+ <td>Maria_D@gmail.com</td>
+ <td>2223567559</td>
+ </tr>
+ <tr>
+ <td>Juan Torres</td>
+ <td>Juan@gmail.com</td>
+ <td>222643789</td>
+ </tr>
+ <tr>
+ <td>Jorge Gomez</td>
+ <td>Jor_ge@gmail.com</td>
+ <td>224758855</td>
+ </tr>
+ <tr>
+ <td>Gabriela Perez</td>
+ <td>gaby_perez@yahoo.com</td>
+ <td>225674939</td>
+ </tr>
+ </tbody>
+ <tfoot></tfoot>
+ </table>
+ </section>
+ <section>
+ <h2>Tabla con celda que abarca dos columnas</h2>
+ <table border="1">
+ <thead>
+ <tr>
+ <th>Nombre</th>
+ <th colspan="2">Teléfono</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr>
+ <td>Oscar Reyes</td>
+ <td>2236474950</td>
+ <td>2748492939</td>
+ </tr>
+ <tr>
+ <td>Salvador Díaz</td>
+ <td>2211747006</td>
+ <td>2245679809</td>
+ </tr>
+ <tr>
+ <td>Carlos Villa</td>
+ <td>2568997732</td>
+ <td>2256839894</td>
+ </tr>
+ </tbody>
+ <tfoot></tfoot>
+ </table>
+ </section>
+ <section>
+ <table width="400" border="1" id="t01">
+ <tbody>
+ <tr>
+ <th scope="col">Nombre</th>
+ <th scope="col">Apellidos</th>
+ <th scope="col">Número</th>
+ </tr>
+ <tr>
+ <td>Cristian</td>
+ <td>Perez Lopez</td>
+ <td>2231335845</td>
+ </tr>
+ <tr>
+ <td>Ian</td>
+ <td>Palacios Cruz</td>
+ <td>2230328573</td>
+ </tr>
+ </tbody>
+ </table>
+ </section>
+ </main>
+ <footer>Elaborado por Ana Karla G.V.</footer>
+ </body>
+ </html>
+
